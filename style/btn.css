@@ -1,0 +1,33 @@
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 8px 16px;
+	margin: 10px 0 26px;
+	outline: none;
+	border: none;  
+	border-radius: 16px;
+	line-height:1;
+	font-size: 14px;
+	text-decoration: none;
+    background-color: #00b0ff;
+    color: #fff;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+.btn:hover {
+    transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	transform: scale(0.96);
+}
+.btn:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.btn-wrapper {
+	text-align: center;
+}

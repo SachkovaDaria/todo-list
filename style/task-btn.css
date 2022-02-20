@@ -1,0 +1,37 @@
+.task-btn-delete {
+    line-height: 1;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/trash-can.svg);
+    background-size: cover;
+}
+
+.task-btn-done {
+    top: 13px;
+    position: absolute;
+    left: 10px;
+}
+
+.task-btn-remake {
+    background-image: url(../img/pencil.svg);
+    background-size: cover;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 30px;
+    top:10px;
+}
+
+.task-btn-save {
+    background-image: url(../img/check.svg);
+    background-size: cover;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 30px;
+    top:10px;
+}
+

@@ -1,0 +1,26 @@
+.todo-list {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'GothamPro';
+    background-color: #F5F5F6;
+    box-sizing: border-box; 
+}
+
+
+.todo-list__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.todo-list__statusSelect {
+    text-align: center;
+    font-family: 'GothamPro';
+    text-transform: lowercase;
+    font-size: 12px;
+    margin-left: 5px;
+}

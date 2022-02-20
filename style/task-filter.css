@@ -1,0 +1,33 @@
+.task__filter {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.task__filter-item {
+    font: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #00b0ff;
+    border-radius: 15px;
+    padding: 4px 8px;
+    margin: 0 3px;
+    color: #00b0ff;
+    font-size: 12px;
+}
+
+.task__filter-item:hover {
+    background-color: #fff;
+} 
+
+.task__filter-item--active {
+    background-color: #00b0ff;
+    color: #fff;
+}
+
+.task__filter-item--active:hover {
+    transition: all 0.2s;
+    box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    background-color: #00b0ff;
+
+}

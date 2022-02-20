@@ -1,0 +1,22 @@
+@import url(default.css);
+@import url(font.css);
+@import url(btn.css);
+@import url(todo-list.css);
+@import url(task.css);
+@import url(task-filter.css);
+@import url(task-btn.css);
+@import url(banner.css);
+
+
+li {
+    font-size: 30px;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 20px;
+    margin: 5px 0;
+}
+
+
+
+
+

@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="banner">
+        <div class="container">
+            <p>DO TO LIST!</p>
+        </div>
+    </header>
+    <main>
+        <div class="todo-list">
+            <div class="container">
+                <form>
+                    <div class="todo-list__input task">
+                        <input type="text" class="task__text" placeholder="пример: пойти гулять" maxlength="100" required>
+                    </div>
+
+                    <div class="todo-list__inner">
+                        <p>выбери приоритет: </p>
+                        <select class="todo-list__statusSelect">
+                            <option class="low" value="LOW">Низкий</option>
+                            <option class="middle" value="MIDDLE">Средний</option>
+                            <option class="hight" value="HIGHT">Высокий</option>
+                        </select>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn task__add" type="submit">Добавить задание</button>
+                    </div>
+                </form>
+                <ul class="task__list"></ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="index.js" type="module"></script>
+
+</html>
