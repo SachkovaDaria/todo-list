@@ -1,8 +1,6 @@
 .todo-list {
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    padding: 50px;
+    /* display: flex;
+    justify-content: center; */
     font-family: 'GothamPro';
     background-color: #F5F5F6;
     box-sizing: border-box; 

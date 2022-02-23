@@ -10,7 +10,24 @@ ul {
 
 .container {
     width: 700px;
+    padding: 20px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 533px) {
+    .container {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .container {
+        max-width: 250px;
+    }
 }
 
 body {

@@ -14,17 +14,30 @@
       font-size: 12px;
   }
   .task__list {
-      width: 100%;
       font-family: "GothamPro";
       display: flex;
       flex-direction: column;
   }
 
+@media screen and (max-width: 768px) {
+    .task__list {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 533px) {
+    .task__list {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .task__list{
+        max-width: 250px;
+    }
+}
   
   .task-text {
       background-color: transparent;
       border: none;
-      width: 600px;
       display: block;
       outline: none;
       color: inherit;
